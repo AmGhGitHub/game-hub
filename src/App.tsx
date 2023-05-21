@@ -12,13 +12,9 @@ function App() {
         <NavBar />
       </GridItem>
       <Show above="lg">
-        <GridItem gridArea="aside" bg="papayawhip">
-          side
-        </GridItem>
+        <GridItem gridArea="aside">side</GridItem>
       </Show>
-      <GridItem gridArea="main" bg="pink">
-        main
-      </GridItem>
+      <GridItem gridArea="main">main</GridItem>
     </Grid>
   );
 }
